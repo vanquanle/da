@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+a {
+  text-decoration: none;
+}
+.main-fix {
+  width: 1170px;
+  margin: 0 auto;
+  max-width: calc(100% - 720px);
+}
+.header .body {
+  padding: 36px 0 8px;
+}
+.na ul {
+  display: flex;
+}
+.na a {
+  font-size: 1.6rem;
+  margin: 5px 10px;
+  font-weight: 500;
+}
+.na a :hover {
+  color: #d12b2b;
+  font-weight: 600;
+}
